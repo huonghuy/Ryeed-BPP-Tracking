@@ -3,12 +3,12 @@ name: Container image
 on:
   push:
     branches:
-      - 'docker' #This is a test, will eventually update with finished
+      - 'finished'
     tags:
       - 'v*'
   pull_request:
     branches:
-      - docker
+      - finished
   workflow_dispatch:
 
 permissions:
