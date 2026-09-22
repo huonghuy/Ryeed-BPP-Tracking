@@ -4,11 +4,11 @@
 
 services:
   bpp-predicts:
-    #image: ghcr.io/huonghuy/ryeed-bpp-tracking:latest
+    image: ghcr.io/rzaman00/ryeed-bpp-tracking:latest
     # To build locally instead of pulling, comment out `image:` above and
     # uncomment these two lines:
-    build:
-      context: .
+    #build:
+    #  context: .
     container_name: bpp-predicts
     restart: unless-stopped
 
